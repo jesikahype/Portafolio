@@ -1,0 +1,103 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color:  #001a33;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    background-color: #000d1a;
+    padding-bottom: 10px;
+}
+
+.menu img {
+    margin-top: 10px;
+    width: 90px;
+}
+
+.menu nav {
+    margin-left: 1600px;
+}
+
+.menu  a {
+    display: inline-flex;
+    color: white;
+    margin-top: 30px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: darkblue;
+}
+
+.caja {
+    display: inline-flex;
+    background-color: #000d1a;
+    margin-top: 120px;
+    margin-left: 220px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+}
+
+.minicaja p {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.text {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 40px;
+}
+
+.fondo {
+    background-color: #000d1a;
+    margin-top: 50px;
+    padding-bottom: 200px;
+}
+
+.bio p {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.caja2 {
+    display: inline-flex;
+    background-color: #001a33;
+    margin-top: 120px;
+    margin-left: 220px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+.minicaja2 p {
+    color: white;
+    font-size: 40px;
+}
+
+.system p {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
