@@ -2,210 +2,169 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
-    background-color:  #001a33;
-    text-decoration: none;
+    background-color: #1a1a1a;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.menu {
-    display: flex;
-    background-color: #000d1a;
-    padding-bottom: 10px;
+.banner {
+    justify-content: center center;
+    text-align: center;
 }
 
-.menu img {
-    margin-top: 10px;
-    width: 90px;
-}
+.banner h1 {
+    margin: 20px;
+    color: #990000;
+    text-shadow: red 0px 2px;
 
-.menu nav {
-    margin-left: 1600px;
-}
-
-.menu  a {
-    display: inline-flex;
-    color: white;
-    margin-top: 30px;
-    padding-left: 20px;
-    text-decoration: none;
-}
-
-.menu a:hover {
-    color: darkblue;
 }
 
 .caja {
-    display: inline-flex;
-    background-color: #000d1a;
-    margin-top: 120px;
-    margin-left: 220px;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
+    justify-content: center center;
+    text-align: center;
+}
+
+.caja h3{
+    color: #990000;
+    text-shadow: red 0px 2px;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.caja p {
+    color: whitesmoke;
+    font-size: 20px
+}
+.mincaja {
+    justify-content: center center;
+    text-align: center;
+    margin: 30px;
     border-radius: 30px;
 }
 
-.minicaja p {
+.mincaja .pf {
+    justify-content: center center;
     text-align: center;
-    color: white;
-    font-size: 40px;
+    width: 200px;
+    border-radius: 290px;
+    margin: 30px;
+    border: #990000 solid 4px;
 }
 
-.text {
-    text-align: center;
-    margin-top: 50px;
-    color: white;
-    font-size: 40px;
+.mincaja img {
+    width: 100px;
+    margin: 30px;
 }
 
-.fondo {
-    background-color: #000d1a;
-    margin-top: 50px;
-    padding-bottom: 200px;
-}
-
-.bio p {
+.mincaja p {
+    justify-content: center center;
     text-align: center;
-    color: white;
+    color: #990000;
     font-size: 30px;
-    margin-top: 30px;
+    text-shadow: red 0px 2px;
 }
 
-.caja2 {
+.lg img {
+    justify-content: center center;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+.mc {
     display: inline-flex;
-    background-color: #001a33;
-    margin-top: 120px;
-    margin-left: 220px;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
+    margin: 20px;
+}
+
+.box {
+    padding: 30px;
+    background-color: #990000;
+    border: solid 2px black;
+    border-radius: 30px;;
+    margin: 30px;
+    justify-content: center center;
+    text-align: center;
+}
+
+.box p {
+    font-size: 25px;
+    margin: 20px;
+}
+
+.bt {
+    background-color: green;
     border-radius: 30px;
+    text-decoration: none;
+    padding: 10px;
+    border: solid 1px black;
+    color: whitesmoke;
+}
+
+.bt:hover {
+    background-color: red;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 10px;
+    border: solid 1px black;
+    color: whitesmoke;
+}
+
+
+
+footer {
+    margin-top: 50px;
+    padding: 2%;
+    background-color:  #1a1a1a;
     text-align: center;
 }
 
+	.redes-sociales a {
+		color: green;
+		font-size: 2rem;
+		margin: 0 10px;
+		padding: 5px;
+		display: inline-block;
+    
+	}
 
-.minicaja2 p {
-    color: white;
-    font-size: 40px;
+body>footer>div>a:nth-child(2)>i {
+    color: red;
 }
 
-.system p {
+
+body>footer>div>a:nth-child(1)>i {
+    color: #DD2A7B;
+}
+
+
+
+a:hover, a:focus {
+    background-size: 100% 2px;
+}
+
+.bio  {
     text-align: center;
+    font-size: 100px;
+    margin: auto;
     color: white;
-    font-size: 30px;
-    margin-top: 60px;
+    margin-left: 430px;
 }
 
-@media (max-width: 1440px) {
-    * {
-        margin: 0%;
-        padding: 0%;
-        box-sizing: border-box;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-    
-    body {
-        background-color:  #001a33;
-        text-decoration: none;
-    }
-    
-    .menu {
-        display: flex;
-        background-color: #000d1a;
-        padding-bottom: 10px;
-    }
-    
-    .menu img {
-        margin-top: 10px;
-        width: 90px;
-    }
-    
-    .menu nav {
-        margin-left: 1100px;
-    }
-    
-    .menu  a {
-        display: inline-flex;
-        color: white;
-        margin-top: 30px;
-        padding-left: 20px;
-        text-decoration: none;
-    }
-    
-    .menu a:hover {
-        color: darkblue;
-    }
-    
-    .caja {
-        display: inline-flex;
-        background-color: #000d1a;
-        margin-top: 120px;
-        margin-left: 220px;
-        padding-top: 50px;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-bottom: 50px;
-        border-radius: 30px;
-    }
-    
-    .minicaja p {
-        text-align: center;
-        color: white;
-        font-size: 40px;
-    }
-    
-    .text {
-        text-align: center;
-        margin-top: 50px;
-        color: white;
-        font-size: 40px;
-    }
-    
-    .fondo {
-        background-color: #000d1a;
-        margin-top: 50px;
-        padding-bottom: 200px;
-    }
-    
-    .bio p {
-        text-align: center;
-        color: white;
-        font-size: 30px;
-        margin-top: 30px;
-    }
-    
-    .caja2 {
-        display: inline-flex;
-        background-color: #001a33;
-        margin-top: 120px;
-        margin-left: 220px;
-        padding-top: 50px;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-bottom: 50px;
-        border-radius: 30px;
-        text-align: center;
-    }
-    
-    
-    .minicaja2 p {
-        color: white;
-        font-size: 40px;
-    }
-    
-    .system p {
-        text-align: center;
-        color: white;
-        font-size: 30px;
-        margin-top: 60px;
-    }
-    
+.logo {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 30px;
 }
+
+
+.name {
+    text-align: left;
+}
+
+
 
 @media (min-width: 320px) and (max-width: 768px) {
 
@@ -213,101 +172,168 @@ body {
         margin: 0%;
         padding: 0%;
         box-sizing: border-box;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     
     body {
-        background-color:  #001a33;
-        text-decoration: none;
+        background-color: #1a1a1a;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     
-    .menu {
-        display: flex;
-        background-color: #000d1a;
-        padding-bottom: 10px;
+    .banner {
+        justify-content: center center;
+        text-align: center;
     }
     
-    .menu img {
-        margin-top: 10px;
-        width: 40px;
-    }
+    .banner h1 {
+        margin: 20px;
+        color: #990000;
+        text-shadow: red 0px 2px;
     
-    .menu nav {
-        margin-left: 150px;
-    }
-    
-    .menu  a {
-        display: inline-flex;
-        color: white;
-        margin-top: 10px;
-        padding-left: 20px;
-        text-decoration: none;
-    }
-    
-    .menu a:hover {
-        color: darkblue;
     }
     
     .caja {
-        display: inline-flex;
-        background-color: #000d1a;
-        margin-top: 90px;
-        margin-left: 50px;
-        padding-top: 30px;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 50px;
+        justify-content: center center;
+        text-align: center;
+    }
+    
+    .caja h3{
+        color: #990000;
+        text-shadow: red 0px 2px;
+        margin: 20px;
+        font-size: 30px;
+    }
+    
+    .caja p {
+        color: whitesmoke;
+        font-size: 20px
+    }
+    .mincaja {
+        justify-content: center center;
+        text-align: center;
+        margin: 20px;
         border-radius: 30px;
     }
     
-    .minicaja p {
+    .mincaja .pf {
+        justify-content: center center;
         text-align: center;
-        color: white;
-        font-size: 40px;
+        width: 200px;
+        border-radius: 290px;
+        margin: 30px;
+        border: #990000 solid 4px;
     }
     
-    .text {
+    .mincaja img {
+        width: 100px;
+        margin: 30px;
+    }
+    
+    .mincaja p {
+        justify-content: center center;
         text-align: center;
-        margin-top: 50px;
-        color: white;
+        color: #990000;
         font-size: 20px;
+        text-shadow: red 0px 2px;
     }
     
-    .fondo {
-        background-color: #000d1a;
-        margin-top: 50px;
-        padding-bottom: 200px;
-    }
-    
-    .bio p {
+    .lg img {
+        justify-content: center center;
         text-align: center;
-        color: white;
-        font-size: 30px;
-        margin-top: 30px;
+        width: 40px;
+        height: 40px;
     }
     
-    .caja2 {
-        display: inline-flex;
-        background-color: #001a33;
-        margin-top: 40px;
-        margin-left: 50px;
-        padding-top: 30px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-bottom: 20px;
+    .mc {
+        justify-content: center center;
+        text-align: center;
+        margin: 5px;
+        display: inline-block;
+    }
+    
+    .box {
+        justify-content: center center;
+        text-align: center;
+        padding: 20px;
+        background-color: #990000;
+        border: solid 2px black;
         border-radius: 30px;;
+        margin: 20px;
+    }
+    
+    .box p {
+        font-size: 20px;
+        margin: 20px;
+    }
+    
+    .bt {
+        background-color: green;
+        border-radius: 30px;
+        text-decoration: none;
+        padding: 5px;
+        border: solid 1px black;
+        color: whitesmoke;
+    }
+    
+    .bt:hover {
+        background-color: red;
+        border-radius: 30px;
+        text-decoration: none;
+        padding: 5px;
+        border: solid 1px black;
+        color: whitesmoke;
     }
     
     
-    .minicaja2 p {
-        color: white;
-        font-size: 40px;
-    }
     
-    .system p {
+    footer {
+        margin-top: 10px;
+        padding: 2%;
+        background-color:  #1a1a1a;
         text-align: center;
-        color: white;
-        font-size: 30px;
-        margin-top: 60px;
     }
+    
+        .redes-sociales a {
+            color: green;
+            font-size: 2rem;
+            margin: 0 10px;
+            padding: 5px;
+            display: inline-block;
+        
+        }
+    
+    body>footer>div>a:nth-child(2)>i {
+        color: red;
+    }
+    
+    
+    body>footer>div>a:nth-child(1)>i {
+        color: #DD2A7B;
+    }
+    
+    
+    
+    a:hover, a:focus {
+        background-size: 100% 2px;
+    }
+    
+    .bio  {
+        text-align: center;
+        font-size: 100px;
+        margin: auto;
+        color: white;
+        margin-left: 430px;
+    }
+    
+    .logo {
+        width: 70px;
+        height: 70px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    
+    
+    .name {
+        text-align: left;
+    }
+    
 }
